@@ -1,0 +1,53 @@
+{
+  "name": "kryos-sdk",
+  "version": "1.0.0",
+  "description": "Official Node.js SDK for Kryos - Monitor backend metrics and send data to Kryos dashboard",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node examples/demo.js",
+    "lint": "eslint *.js"
+  },
+  "keywords": [
+    "kryos",
+    "monitoring",
+    "metrics",
+    "sdk",
+    "analytics",
+    "dashboard",
+    "prometheus",
+    "backend"
+  ],
+  "author": "Kryos Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "crypto": "^1.0.1",
+    "express": "^5.1.0",
+    "prom-client": "^15.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-repo/kryos-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-repo/kryos-sdk/issues"
+  },
+  "homepage": "https://github.com/your-repo/kryos-sdk#readme",
+  "files": [
+    "index.js",
+    "monitoring.js",
+    "api.js",
+    "middleware.js",
+    "utils.js",
+    "config.js",
+    "README.md"
+  ]
+}
